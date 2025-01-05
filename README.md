@@ -6,19 +6,20 @@
 # Sales Method Analysis Report
 ## 1. Data Validation
 **Cleaning and Validation Steps**
-Revenue Data: I made sure all the revenue data was in the right numerical format. Any non-numerical values or inconsistencies were fixed by either replacing them or just removing them.
 
-Sales Method Data: I checked the sales methods to ensure they only contained "Email," "Call," and "Email + Call." There were no major issues, but I had to remove any rows that didn't match those three values.
 
-State Data: The states were checked for consistency, and everything matched correctly with the expected state names. There were no invalid or misspelled states.
+**Revenue Data:** I made sure all the revenue data was in the right numerical format. Any non-numerical values or inconsistencies were fixed by either replacing them or just removing them.
 
-Missing Data: When reviewing the dataset, I noticed that the "Email + Call" method made up only about 7.09% of the total data. After looking at how this affected the overall results, I decided it was best to remove those rows since it didn't have a significant impact on the analysis.
+**Sales Method Data:** I checked the sales methods to ensure they only contained "Email," "Call," and "Email + Call." There were no major issues, but I had to remove any rows that didn't match those three values.
+
+**State Data:** The states were checked for consistency, and everything matched correctly with the expected state names. There were no invalid or misspelled states.
+
+**Missing Data:** When reviewing the dataset, I noticed that the "Email + Call" method made up only about 7.09% of the total data. After looking at how this affected the overall results, I decided it was best to remove those rows since it didn't have a significant impact on the analysis.
 
 ## 2. Exploratory Analysis
-Single Variable Analysis
 I took a look at the overall revenue and also broke it down by each sales method to understand how things were performing:
 
-Revenue for all methods combined:
+**Revenue for all methods combined:**
 
 Total Revenue: $1,304,734.36
 Minimum Revenue: $1,199.22
