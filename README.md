@@ -22,18 +22,23 @@ I took a look at the overall revenue and also broke it down by each sales method
 **Revenue for all methods combined:**
 
 Total Revenue: $1,304,734.36
+
 Minimum Revenue: $1,199.22
+
 Maximum Revenue: $229,765.55
+
 Average Revenue: $17,587.59
+
 These figures helped give an overall idea of the total sales and how they were distributed among the methods.
 
 **Revenue by Sales Method:**
 
 Email + Call: This method showed steady growth in the first few weeks, peaking around weeks 5 and 6.
+
 Call: It had the lowest revenue, but there was an increase in revenue between weeks 2 and 5.
+
 Email: Even though Email brought in the highest revenue overall, the data showed a sharp decline by week 6.
 
-Two or More Variable Analysis
 Next, I looked at how revenue varied by state and sales method to get a better idea of where things were happening:
 
 State-Based Revenue: California really stood out, generating the highest revenue across multiple methods. The "Email" method brought in $83,163.31 in revenue there. Texas and New York followed, but places like Florida had significantly lower contributions.
@@ -46,15 +51,20 @@ This helped me see where the big revenue drivers are and where the sales efforts
 **Key Metric: Revenue per Method**
 The key metric the business should track is Revenue per Method, as it will show how each method is performing in terms of revenue generation. Monitoring this will give insights into which method is bringing in the most return, helping guide future strategies.
 
-Initial Value Estimation Based on Current Data:
+**Initial Value Estimation Based on Current Data:**
+
 Email: $672,317.83 total revenue
+
 Email + Call: $404,787.15 total revenue
+
 Call: $227,563.49 total revenue
+
 These values give a good baseline to work with and track how things change in the future.
 
 ## 4. Final Summary and Recommendations
 
 **Key Findings:**
+
 Email is still the top performer revenue-wise, but its revenue has been decreasing over time. This decline is something to keep an eye on.
 Email + Call seems to offer good potential, especially in weeks 4 to 6, despite its lower revenue at the start.
 Call has the smallest revenue overall but shows steady growth, which means there could be opportunities to boost its performance.
