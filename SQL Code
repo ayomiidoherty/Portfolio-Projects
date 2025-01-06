@@ -1,0 +1,116 @@
+
+-- SQL Code
+
+
+
+SELECT *
+FROM product_sales; 
+
+CREATE TABLE cleaned_sales AS
+SELECT *
+FROM product_sales; 
+
+
+SELECT COUNT(*) AS NA_count
+FROM cleaned_sales
+WHERE revenue = 'NA';
+
+
+SELECT 
+    state, 
+    COUNT(*) AS occurrences
+FROM cleaned_sales
+GROUP BY state
+HAVING COUNT(*) > 1;
+
+
+
+SELECT (COUNT(*) * 100.0 / (SELECT COUNT(*) FROM cleaned_sales)) AS percentage_NA
+FROM cleaned_sales
+WHERE revenue = 'NA';
+
+
+SELECT 
+    COUNT(`week`) AS total_rows,
+    COUNT(DISTINCT `week`) AS unique_values,
+    COUNT(`week`) - COUNT(DISTINCT `week`) AS duplicate_values
+FROM cleaned_sales;
+
+DELETE FROM cleaned_sales 
+WHERE sales_method = 'em + call'; 
+
+SELECT *
+FROM cleaned_sales; 
+
+
+SELECT sales_method, COUNT(DISTINCT customer_id) AS num_customers
+FROM cleaned_sales
+GROUP BY sales_method; 
+
+
+
+SELECT
+    sales_method,
+    MIN(revenue) AS min_revenue,
+    MAX(revenue) AS max_revenue,
+    AVG(revenue) AS avg_revenue,
+    SUM(revenue) AS total_revenue
+FROM cleaned_sales
+GROUP BY sales_method;
+
+
+SELECT 
+    SUM(revenue) AS total_revenue
+FROM cleaned_sales;
+
+
+SELECT
+    sales_method,
+    `week`,
+    SUM(revenue) AS total_revenue
+FROM cleaned_sales
+GROUP BY sales_method, `week`
+ORDER BY sales_method, `week`;
+
+-- CUSTOMER SEGMENTATION 
+
+SELECT
+    years_as_customer,
+    AVG(revenue) AS avg_revenue,
+    SUM(nb_sold) AS total_sales
+FROM cleaned_sales
+GROUP BY years_as_customer
+ORDER BY total_sales DESC;
+
+
+-- IMPACT OF NUMBER OF SITE VISITS ON REVENUE 
+SELECT
+    sales_method,
+    AVG(nb_site_visits) AS avg_site_visits,
+    AVG(revenue) AS avg_revenue
+FROM cleaned_sales
+GROUP BY sales_method
+ORDER BY avg_revenue DESC;
+
+
+-- STATE-BASED REVENUE DIFFERENCES 
+
+SELECT
+    state,
+    sales_method,
+    SUM(revenue) AS total_revenue
+FROM cleaned_sales
+GROUP BY state, sales_method
+ORDER BY total_revenue DESC;
+
+
+
+
+
+
+
+
+
+
+
+
