@@ -1,19 +1,19 @@
 # Portfolio-Projects
 
-# Analysis of Sales Methods and Revenue Performance 
+# Analysis of Vertex Office Supplies Sales Methods and Revenue Performance 
 
 
 # PROJECT OVERVIEW
 
-Pens and Printers Sales Strategy Analysis
+Vertex Office Supplies Sales Strategy Analysis
 
 Background
-Pens and Printers, established in 1984, supplies high-quality office products to large organizations. While we don’t produce our own items, we’ve built strong customer trust by offering top-tier products from other manufacturers.
+Vertex Office Supplies, established in 1984, supplies high-quality office products to large organizations. While they don’t produce our their items, they've built strong customer trust by offering top-tier products from other manufacturers.
 
-As consumer purchasing habits evolve, so must our sales strategies. With the recent launch of a new office stationery line, we aim to identify the most effective sales techniques to ensure successful product adoption while minimizing costs.
+As consumer purchasing habits evolve, so must their sales strategies. With the recent launch of a new office stationery line, they aim to identify the most effective sales techniques to ensure successful product adoption while minimizing costs.
 
 New Product and Sales Methods
-The new stationery line focuses on tools that enhance creativity and brainstorming, such as notebooks, pens, and sticky notes. To test sales effectiveness, we implemented three strategies over six weeks:
+The new stationery line focuses on tools that enhance creativity and brainstorming, such as notebooks, pens, and sticky notes. To test sales effectiveness, they implemented three strategies over six weeks:
 
 Email: Two targeted emails were sent (at launch and after three weeks), requiring minimal effort.
 Call: Sales representatives engaged customers in 30-minute phone calls.
