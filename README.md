@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/26c8e822-a1d5-448d-9f2e-1830ecc83f1d)# Portfolio-Projects
+# Portfolio-Projects
 
 # Analysis of Sales Methods and Revenue Performance 
 
