@@ -69,7 +69,7 @@ State-Based Revenue: California really stood out, generating the highest revenue
 
 This helped me see where the big revenue drivers are and where the sales efforts could be focused more.
 
-## 3. Definition of a Metric for the Business
+## 3. Key Metric
 **Key Metric: Revenue per Method**
 The key metric the business should track is Revenue per Method, as it will show how each method is performing in terms of revenue generation. Monitoring this will give insights into which method is bringing in the most return, helping guide future strategies.
 
